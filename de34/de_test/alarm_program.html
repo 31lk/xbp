@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>アラーム設定</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>アラーム設定</h1>
+    <form id="alarmForm" action="/set_alarm" method="POST">
+        <label for="hour">時:</label>
+        <input type="number" id="hour" name="hour" min="0" max="23" required>
+        <br>
