@@ -58,3 +58,5 @@ set_alarm()
 
 # アラームチェックを開始
 check_alarms()
+
+
